@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 //#define dec
@@ -10,7 +10,7 @@ void main()
 #ifdef dec
 	const int n = 32;
 	int decimal;
-	cout << "Ââåäèòå äåñÿòè÷íîå ÷èñëî: "; cin >> decimal;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´ÐµÑÑÑ‚Ð¸Ñ‡Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> decimal;
 	int bin[n] = {};
 	int i = 0;
 	while (decimal > 0)
@@ -28,7 +28,7 @@ void main()
 #ifdef hex
 	const int n = 8;
 	int decimal;
-	cout << "Ââåäèòå äåñÿòè÷íîå ÷èñëî: "; cin >> decimal;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´ÐµÑÑÑ‚Ð¸Ñ‡Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> decimal;
 	int hex[n] = {};
 	int i = 0;
 	while (decimal > 0)
@@ -51,5 +51,5 @@ void main()
 		}
 	}
 	cout << endl;
-#endif // hex
+#endif //hex
 }
